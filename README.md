@@ -24,3 +24,14 @@ This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Wind
 ## Step 3: Run the VM
 - The screen should bring you to the installation screen. This should take about 10-15 minutes and a product key is not needed as we are just using it as a homelab and a trial version will be used.
 
+## Step 4: Setting up NIC for Server
+- After you installed everything and you are in the Windows home screen, make sure you **Power Off** the VM. It should not be in a **Saved State** or left running.
+- Select the Server VM in VirtualBox and click on Settings
+- ![image](https://github.com/user-attachments/assets/be81fc6c-84c6-4c7c-94a7-818d5af7f137)
+- This settings window should pop up and on the left side, click on Network.
+- Make sure Adapter 1 is **Attached to: NAT**
+- Click on Adapter 2 and click **Enable Network Adapter**
+- ![image](https://github.com/user-attachments/assets/8088ab03-caf2-42a7-a791-9b11c40b8e38)
+- Your internal network name can be anything, as long as these settings match.
+  
+
