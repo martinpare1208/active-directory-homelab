@@ -41,6 +41,27 @@ This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Wind
 - ![image](https://github.com/user-attachments/assets/5e75eb23-1880-4ed5-bd28-734f7fbb54bc)
 - These are the settings I used from my Network Topology diagram. You can use your own, just make sure you test them.
 
+## Step 6: Installing the AD DS Controller
+- Go to server manager which should be located on your task bar.
+- ![image](https://github.com/user-attachments/assets/3b0c70cb-155f-450d-b690-ce9fcf61781f)
+- Click on Add roles and features
+- Follow the settings configurations on each screenshot when clicking Next
+- ![image](https://github.com/user-attachments/assets/9bf871a8-008a-4e89-9972-f5c178b4d0fd)
+- ![image](https://github.com/user-attachments/assets/d0c90981-8cea-47eb-8492-429796030b14)
+- Keep in mind your server name can be different, as long as you see your own, select it.
+- ![image](https://github.com/user-attachments/assets/04efc61d-d52a-4e18-82ff-1e6ee54eb20b)
+- ![image](https://github.com/user-attachments/assets/d73bc153-1c1a-4131-82aa-9f4358d82fa7)
+
+- Keep clicking Next until you get to this screen.
+- ![image](https://github.com/user-attachments/assets/9c205891-307e-4ee5-8145-bff97dbef74d)
+- Then click on **Install**.
+
+
+
+
+
+
+
 
   
 
