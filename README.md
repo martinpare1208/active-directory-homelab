@@ -41,7 +41,7 @@ This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Wind
 - ![image](https://github.com/user-attachments/assets/5e75eb23-1880-4ed5-bd28-734f7fbb54bc)
 - These are the settings I used from my Network Topology diagram. You can use your own, just make sure you test them.
 
-## Step 6: Installing the AD DS Controller
+## Step 6: Installing the AD DS
 - Go to server manager which should be located on your task bar.
 - ![image](https://github.com/user-attachments/assets/3b0c70cb-155f-450d-b690-ce9fcf61781f)
 - Click on Add roles and features
@@ -56,12 +56,23 @@ This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Wind
 - ![image](https://github.com/user-attachments/assets/9c205891-307e-4ee5-8145-bff97dbef74d)
 - Then click on **Install**.
 
+## Step 7: Configuring the AD DS Controller
+- After finishing the installation, go to the top right of the server manager and click on the flag with a triangle icon.
+- ![image](https://github.com/user-attachments/assets/ac0af2d8-ed03-4ca0-8978-b3ca4b9dde30)
+- **Select Promote this server to a domain controller**
+- ![image](https://github.com/user-attachments/assets/6b5eff0b-570b-430f-8978-e1fee5a91b33)
+- ![image](https://github.com/user-attachments/assets/3c3cc07b-0da0-4460-9780-c6e5c9841baf)
+- Follow the configurations, you can choose whatever domain name you want, just remember and document your configurations.
+- ![image](https://github.com/user-attachments/assets/c1534fcd-2255-4605-b9e5-76889ef21238)
+- Choose any password and document it.
+- Follow the configurations.
+- ![image](https://github.com/user-attachments/assets/1a886d57-0ee5-4140-9d39-44471288da65)
+- ![image](https://github.com/user-attachments/assets/9e031b8a-d5c8-48d4-8e85-a76ccace4f6c)
+- ![image](https://github.com/user-attachments/assets/74fd9633-4991-4800-a342-ec868cfddc97)
+- ![image](https://github.com/user-attachments/assets/6e64fbf7-a12b-4191-9188-e413cc88a71d)
+- Click on **Install**. This will restart the VM.
+- After restarting, go to the Windows Logo, then click on Windows Administrative tools and you should see all of the AD DS tools that have been installed. This means the installation was successful.
+- ![image](https://github.com/user-attachments/assets/aa9dad9e-67bb-4678-bd8b-37bf046f76f1)
+- This is how to get your AD DS up and running. Refer to your AD DS documentation of the corporate architecture.
 
-
-
-
-
-
-
-  
 
