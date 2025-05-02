@@ -33,5 +33,14 @@ This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Wind
 - Click on Adapter 2 and click **Enable Network Adapter**
 - ![image](https://github.com/user-attachments/assets/8088ab03-caf2-42a7-a791-9b11c40b8e38)
 - Your internal network name can be anything, as long as these settings match.
+- Verify that the NICs are registered in the **Network and Internet** Control Panel Applet.
+- ![image](https://github.com/user-attachments/assets/67bb52e4-766c-4ba5-8075-744a4e5446d3)
+- You can rename for convenience purposes.
+## Step 5: Configure NIC settings
+- Right click on your Internal Network Adapter -> Properties -> Internet Protocol Version 4 (TCP/IPv4) Click on it
+- ![image](https://github.com/user-attachments/assets/5e75eb23-1880-4ed5-bd28-734f7fbb54bc)
+- These are the settings I used from my Network Topology diagram. You can use your own, just make sure you test them.
+
+
   
 
