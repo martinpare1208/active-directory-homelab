@@ -75,4 +75,12 @@ This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Wind
 - ![image](https://github.com/user-attachments/assets/aa9dad9e-67bb-4678-bd8b-37bf046f76f1)
 - This is how to get your AD DS up and running. Refer to your AD DS documentation of the corporate architecture.
 
+## Step 8: Adding RAS / NAT to allow our virtual network to have Internet Connectivity
+- Follow these configurations using the Add Roles and Features Wizard in Server Manager
+- ![image](https://github.com/user-attachments/assets/f5ac0e03-b009-4085-a3c8-f2bf1793c32a)
+- ![image](https://github.com/user-attachments/assets/f15c864d-6fcb-459d-9147-10a35884582b)
+- 
+
+
+
 
