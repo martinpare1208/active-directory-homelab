@@ -79,7 +79,22 @@ This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Wind
 - Follow these configurations using the Add Roles and Features Wizard in Server Manager
 - ![image](https://github.com/user-attachments/assets/f5ac0e03-b009-4085-a3c8-f2bf1793c32a)
 - ![image](https://github.com/user-attachments/assets/f15c864d-6fcb-459d-9147-10a35884582b)
-- 
+- After it is finished installing, go to the top right and click on the flag icon with the triangle and click on **Open the Getting Started Wizard**
+- ![image](https://github.com/user-attachments/assets/1ab84a07-4d0b-4a90-8ef5-285cb29315ea)
+- After that, go to top right and click on **Tools** and scroll down and select **Routing and Remote Access**
+- ![image](https://github.com/user-attachments/assets/2dee0600-b40d-4010-b177-09e90a73a19b)
+- Right click on the (local) machine and click on **Configure and Enable Routing and Remote Access**
+- ![image](https://github.com/user-attachments/assets/56bdeb68-de6d-4b8b-8a21-a9ded5d0255e)
+- Select **Network Address Translation (NAT)**
+- Select your internet NIC Adapter.
+- ![image](https://github.com/user-attachments/assets/d57fcc09-8e99-4c6f-a229-deee6fc46e30)
+- After finishing the installation, you can now select the dropdown of your local machine in the Routing and Remote Access window.
+- ![image](https://github.com/user-attachments/assets/4ae73ac4-4274-4d57-b877-b5a445466eb6)
+
+
+
+
+
 
 
 
