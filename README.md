@@ -10,6 +10,11 @@ This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Wind
 - 16 GB of RAM
 - Recommended 100 GB of dedicated storage for the VMs
 
+## Network Topology Used
+- ![Network Topology](https://github.com/user-attachments/assets/948b6076-d61d-423e-859a-5f9fc3caa51a)
+
+
+
 ## Step 1: Setting Up VirtualBox
 - Make sure you install VirtualBox or your preferred hypervisor.
 - Install it and run VirtualBox
