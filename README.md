@@ -91,9 +91,37 @@ This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Wind
 - After finishing the installation, you can now select the dropdown of your local machine in the Routing and Remote Access window.
 - ![image](https://github.com/user-attachments/assets/4ae73ac4-4274-4d57-b877-b5a445466eb6)
 
+## Step 9: Setting up DHCP to allow our Workstations to have internet access
+- Go back to dashboard and "Add roles and features"
+- ![image](https://github.com/user-attachments/assets/00b183a6-9ccc-4063-ba4e-1b6dbaa28830)
+-  Select DHCP Server and install.
+-  Complete the Post-Install Deployment Configuration (The flag with the triangle icon again). Use whatever configurations, just document them.
+-  ![image](https://github.com/user-attachments/assets/76cca70c-a555-41ae-a7c1-f675c9627f6b)
 
+-  ![image](https://github.com/user-attachments/assets/f5c4ee93-35e8-4357-a615-e59940aba5ca)
+-  After installation, go to Tools -> DHCP
+-  ![image](https://github.com/user-attachments/assets/6640be19-98dc-41a7-826d-86000ec8c8eb)
+-  Right click IPv4 -> New Scope
+-  Use whatever configuration you have, I am following my own network topology graph.
+-  Your DHCP server is now setup.
 
+## Step 10: Launch your Windows 10 Pro/Enterprise VM
+- I am assuming that you already setup your Win 10 Pro/Enterprise Workstation VM.
+- If you are not getting internet, then check your VM's network adapter and that the server is running.
 
+## Step 11: Join the Domain
+- Right click on the Windows Start Icon -> System
+- ![image](https://github.com/user-attachments/assets/eada1c1c-9666-4d8b-847d-eb06a14fc83e)
+- Scroll down to **Rename this PC (advanced)** and click on it
+- ![image](https://github.com/user-attachments/assets/6b7e0f2c-04ab-4879-94c2-11ffe0c5b910)
+- Click on **Change**
+- ![image](https://github.com/user-attachments/assets/38c4f147-6d92-44c7-b887-3ef77b5ed635)
+- Then put in your configurations, refer back to your documentation, topology, etc.
+- ![image](https://github.com/user-attachments/assets/8fc9b3e2-3d8e-456e-8a6a-742462798be2)
+- A window will pop up to use an authenticated and authorized account in the domain. Put in your username and password.
+- ![image](https://github.com/user-attachments/assets/b1909d15-9580-4920-9699-1b120ba1f3e7)
+- When successful, a confirmation window shows that you have joined the domain.
+- Congratulations, you have created a Windows 10 Active Directory Server using Windows Server 2022 and implemented a workstation to the domain.
 
 
 
