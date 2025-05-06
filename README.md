@@ -3,6 +3,12 @@
 ## Overview:
 This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Windows 10 Pro to simulate a corporate Active Directory system. Below will be a loose step-by-step process of setting up the AD DS and its configurations.
 
+## Features
+- Organizational Unit creation (Human Resources)
+- Connected a Workstation to an Internal Network and still receiving Internet with RAS / NAT
+- Mapped network drive to OUs with Group Policy Objects
+- Created Security Groups to allow folder sharing for least privilege access
+
 ## Installation and Setup:
 - VMware/VirtualBox (I used VirtualBox)
 - Windows 10 ISO File (free on Microsoft)
@@ -12,7 +18,6 @@ This is a virtualized homelab where I used VirtualBox, Windows Server 2022, Wind
 
 ## Network Topology Used
 - ![Network Topology](https://github.com/user-attachments/assets/948b6076-d61d-423e-859a-5f9fc3caa51a)
-
 
 
 ## Step 1: Setting Up VirtualBox
